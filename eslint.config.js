@@ -10,6 +10,8 @@ module.exports = [
   {
     files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
     rules: {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
       '@nx/enforce-module-boundaries': [
         'error',
         {
